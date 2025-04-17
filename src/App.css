@@ -1,0 +1,31 @@
+body {
+  --rosa-fondo: #e5cbce;
+  --rosa-pastel: #ff96c5;
+  --color-contraste: #b4ff9a;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.App-title {
+  margin: auto;
+  margin-top: 40px;
+  width: fit-content;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: clamp(300px, 100%, 500px);
+  height: 500px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: var(--rosa-pastel);
+}

@@ -1,0 +1,27 @@
+.App-form {
+    display: flex;
+    width: 100%;
+}
+
+.input {
+    padding: 7px;
+    border: none;
+    outline: none;
+    flex: 3;
+    margin-right: 4px;
+}
+
+.boton {
+    flex: 1;
+    background-color: var(--color-contraste);
+    border: none;
+}
+
+.boton:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.boton:active {
+    background-color: #a6d191;
+}
